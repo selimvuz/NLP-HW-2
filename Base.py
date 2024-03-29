@@ -5,9 +5,9 @@ import numpy as np
 import pandas as pd
 import random
 
-print("Model yükleniyor... -Turkish Tiny BERT")
+print("Model yükleniyor... -Turkish Base BERT")
 # Model ve tokenizer yükleme
-model_name = "ytu-ce-cosmos/turkish-tiny-bert-uncased"
+model_name = "ytu-ce-cosmos/turkish-base-bert-uncased"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModel.from_pretrained(model_name)
 
